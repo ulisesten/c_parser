@@ -1,0 +1,36 @@
+{
+  "name": "simple_c_parser",
+  "version": "0.0.1",
+  "description": "url parser in c",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "IP=0.0.0.0 PORT=8080 mocha test/*_test.js --exit",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "engine": {
+    "node": "14.5.0",
+    "npm": "6.14.5"
+  },
+  "keywords": [
+    "url",
+    "parser"
+  ],
+  "author": "ulisesten <ulises.mtz.el@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ulisesten/c_parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ulisesten/c_parser/issues"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.1.2"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  }
+}
