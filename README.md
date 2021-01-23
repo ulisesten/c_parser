@@ -1,6 +1,10 @@
-# c_parser
+# simple_c_parser
 
 Node.js url parser written in c for speed up your server
+
+## installation
+
+    npm install simple_c_parser
 
 ## usage
 
