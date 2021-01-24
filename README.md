@@ -1,12 +1,12 @@
 # simple_c_parser
 
-Node.js url parser written in c for speed up your server
+Node.js url and cookie parser written in c for speed up your server
 
 ## installation
 
     npm install simple_c_parser
 
-## usage
+## usage with url
 
     var parser = require('simple_c_parser');
 
@@ -14,5 +14,10 @@ Node.js url parser written in c for speed up your server
 
     //output will be a json object
 
-    //{ path: www.my-website.com,
-    //  foo: bar }
+    //{ path: 'www.my-website.com',
+    //  foo: 'bar' }
+
+## usage with cookies
+
+    var parsed_cookie = parser.milk(my_cookie);
+

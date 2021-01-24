@@ -1,7 +1,7 @@
 {
   "name": "simple_c_parser",
-  "version": "0.0.2",
-  "description": "url parser in c",
+  "version": "0.0.3",
+  "description": "url and cookie parser in c",
   "main": "index.js",
   "gypfile": true,
   "scripts": {
@@ -16,6 +16,7 @@
   },
   "keywords": [
     "url",
+    "cookie",
     "parser"
   ],
   "author": "ulisesten <ulises.mtz.el@gmail.com>",
